@@ -1,5 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.bluetooth">
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
    <application
         android:label="bluetooth"
         android:icon="@mipmap/ic_launcher">
@@ -37,9 +40,5 @@
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
-
-       <uses-permission android:name="android.permission.BLUETOOTH" />
-       <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
-       <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
    </application>
 </manifest>
