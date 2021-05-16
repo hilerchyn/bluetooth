@@ -1,6 +1,6 @@
 # bluetooth
 
-A new Flutter project.
+基于flutter_blue包的蓝牙血糖仪连接测试代码
 
 ## Getting Started
 
